@@ -26,7 +26,7 @@
 1. Apply [best practices](https://github.com/angular/angular.js/wiki/Best-Practices) on each use of the framework and avoid [common mistakes](https://www.airpair.com/angularjs/posts/top-10-mistakes-angularjs-developers-make) and [anti-patterns](https://github.com/angular/angular.js/wiki/Anti-Patterns).
 2. Select or create with your team style guidelines and apply them [[1](https://github.com/johnpapa/angular-styleguide), [2](https://github.com/toddmotto/angularjs-styleguide)].
 3. At function definition (controller, directive, filter, service) put first framework services and then custom ones (the `$`* comes first) and sort them all alphabetically.
-4. Develop with performance in mind:
+4. Develop with [performance in mind](http://www.alexkras.com/11-tips-to-improve-angularjs-performance/):
    * Avoid the use of `$scope.$watch` as much as possible.
    * Use `$timeout` wisely.
    * Use [one-time binding](https://docs.angularjs.org/guide/expression) as much as you can (`::`).
