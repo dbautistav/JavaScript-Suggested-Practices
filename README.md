@@ -35,3 +35,4 @@
    * `$http` / `$resource`
    * `ui.router`
 6. Favor `$log.debug` over `console.log`.
+7. [Optimize your application's performance](http://www.slideshare.net/nirkaufman/angularjs-performance-production-tips) in order to get it production ready.
